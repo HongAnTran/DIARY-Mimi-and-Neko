@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "chatapp",
-    "slug": "chatapp",
+    "name": "MimiAndNeko",
+    "slug": "Mimi",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/love.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -19,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hongantran.Mimi"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hongantran.Mimi"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
